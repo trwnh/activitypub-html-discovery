@@ -911,7 +911,7 @@
           Link: &lt;acct:username@social.example&gt;; rel="author"
         </pre>
         <p>
-          The acct: URI could be tried with <a href="https://www.w3.org/community/reports/socialcg/CG-FINAL-apwf-20240608/#forward-discovery">WebFinger forward discovery</a> to potentially obtain the [=ActivityPub object=] for the [=author=]. Note that, according to [[RFC7565]], acct: URIs are not dereferenceable on their own, e.g. as the value of an <code>href</code> attribute. Out-of-band knowledge is needed to obtain information about an acct: resource, such as a WebFinger query, but no specific mechanism is guaranteed to work with acct: URIs.</p>
+          The acct: URI could be tried with <a href="https://www.w3.org/community/reports/socialcg/CG-FINAL-apwf-20240608/#forward-discovery">WebFinger forward discovery</a> to potentially obtain the [=ActivityPub object=] for the [=author=]. Note that, according to [[RFC7565]], <code>acct:</code> URIs are not dereferenceable on their own, e.g., as the value of an <code>href</code> attribute. Out-of-band knowledge such as a WebFinger query is needed to obtain information about an <code>acct:</code> resource, but no specific mechanism is guaranteed to work with <code>acct:</code> URIs.</p>
       </section>
       <section>
         <h4>Link header failure</h4>
